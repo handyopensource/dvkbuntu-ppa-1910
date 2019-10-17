@@ -1,0 +1,13 @@
+Package: dvkbuntu-menu-acceuil-dbgsym
+Package-Type: ddeb
+Source: dvkbuntu-menu-acceuil
+Version: 1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Paul WOISARD <paulwoisard@gmail.com>
+Installed-Size: 31
+Depends: dvkbuntu-menu-acceuil (= 1.0-1)
+Section: debug
+Priority: optional
+Description: debug symbols for dvkbuntu-menu-acceuil
+Build-Ids: 2145499b80b04e382dfc3866ea9e0f804b2806fa

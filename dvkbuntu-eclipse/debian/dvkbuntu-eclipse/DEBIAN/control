@@ -1,0 +1,10 @@
+Package: dvkbuntu-eclipse
+Version: 1.0-1
+Architecture: amd64
+Maintainer: Paul WOISARD <paulwoisard@gmail.com>
+Installed-Size: 32850
+Section: misc
+Priority: important
+Homepage: https://discord.gg/FtsNjjC
+Description: DVKBUNTU Wallpaper Eclipse
+ <insert long description, indented with spaces>

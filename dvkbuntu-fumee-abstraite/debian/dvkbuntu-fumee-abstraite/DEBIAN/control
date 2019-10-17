@@ -1,0 +1,10 @@
+Package: dvkbuntu-fumee-abstraite
+Version: 1.0-1
+Architecture: amd64
+Maintainer: Paul WOISARD <paulwoisard@gmail.com>
+Installed-Size: 51413
+Section: misc
+Priority: important
+Homepage: https://discord.gg/FtsNjjC
+Description: DVKBUNTU Wallpaper Fumée Abstraite
+ <insert long description, indented with spaces>

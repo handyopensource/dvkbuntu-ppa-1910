@@ -1,0 +1,12 @@
+Package: dvkbuntu-fetch
+Version: 1.0-1
+Architecture: amd64
+Maintainer: Paul WOISARD <paulwoisard@gmail.com>
+Installed-Size: 30
+Depends: linuxlogo, neofetch, screenfetch
+Replaces: base-files
+Section: misc
+Priority: important
+Homepage: https://www.dvkbuntu.org/
+Description: DVKBUNTU Affichage Logo dans la Konsole
+ <insert long description, indented with spaces>

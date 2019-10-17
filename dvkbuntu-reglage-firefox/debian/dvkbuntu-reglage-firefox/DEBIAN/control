@@ -1,0 +1,11 @@
+Package: dvkbuntu-reglage-firefox
+Version: 1.0-1
+Architecture: amd64
+Maintainer: Paul WOISARD <paulwoisard@gmail.com>
+Installed-Size: 4980
+Depends: dvkbuntu-page-acceuil, firefox
+Section: misc
+Priority: important
+Homepage: https://discord.gg/FtsNjjC
+Description: DVKBUNTU reglages Firefox.
+ <insert long description, indented with spaces>

@@ -1,0 +1,10 @@
+Package: dvkbuntu-luciole-font
+Version: 1.0-1
+Architecture: amd64
+Maintainer: Paul WOISARD <paulwoisard@gmail.com>
+Installed-Size: 674
+Section: misc
+Priority: important
+Homepage: https://discord.gg/FtsNjjC
+Description: DVKBUNTU polices de caractère luciole.
+ <insert long description, indented with spaces>

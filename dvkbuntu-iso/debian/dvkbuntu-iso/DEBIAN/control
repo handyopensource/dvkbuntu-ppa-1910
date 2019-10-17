@@ -1,0 +1,11 @@
+Package: dvkbuntu-iso
+Version: 1.0-1
+Architecture: amd64
+Maintainer: Paul WOISARD <paulwoisard@gmail.com>
+Installed-Size: 9
+Depends: ubiquity-frontend-dvkbuntu, ubiquity-slideshow-dvkbuntu
+Section: misc
+Priority: optional
+Homepage: https://discord.gg/FtsNjjC
+Description: DVKBUNTU pour installer les paquets iso DVKBUNTU
+ <insert long description, indented with spaces>

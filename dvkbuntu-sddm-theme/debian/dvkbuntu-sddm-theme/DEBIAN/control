@@ -1,0 +1,11 @@
+Package: dvkbuntu-sddm-theme
+Version: 1.0-1
+Architecture: amd64
+Maintainer: Paul WOISARD <paulwoisard@gmail.com>
+Installed-Size: 3182
+Depends: sddm
+Section: misc
+Priority: optional
+Homepage: https://discord.gg/FtsNjjC
+Description: DVKBUNTU SDDM Theme
+ <insert long description, indented with spaces>
