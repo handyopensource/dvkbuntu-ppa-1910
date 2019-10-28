@@ -10,5 +10,5 @@ Package: ubiquity-frontend-dvkbuntu
 Replaces: ubiquity-frontend-kde 
 Architecture: any
 Depends: python3-pyqt5.qtsvg, python3-pyqt5.qtwebkit, python3-pyqt5.qtsvg, python3-pyqt5.qtwebkit, ubiquity
-Description: Ubuquity pour DVKBuntu
+Description: Ubiquity pour DVKBuntu
  <insert long description, indented with spaces>
