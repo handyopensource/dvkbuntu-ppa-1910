@@ -1,4 +1,4 @@
  #!/bin/bash
  
-chmod 645 -R /opt/Accueil_local
+chmod 645 -R /home/Accueil_local
 chmod -w /etc/chromium/policies/managed
