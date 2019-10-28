@@ -1,3 +1,4 @@
  #!/bin/bash
 
-snap install --devmode --edge chromium
+snap remove --purge chromium
+snap install --devmode chromium

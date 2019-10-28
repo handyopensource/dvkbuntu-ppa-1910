@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 22 Apr 2019 14:15:36 +0200
+Source: dvkbuntu-reglage-chromium
+Binary: dvkbuntu-reglage-chromium
+Architecture: source amd64
+Version: 3.2-1
+Distribution: eoan
+Urgency: medium
+Maintainer: Paul WOISARD <paulwoisard@gmail.com>
+Changed-By: Paul WOISARD <paulwoisard@gmail.com>
+Description:
+ dvkbuntu-reglage-chromium - DVKBUNTU reglages Chromium.
+Changes:
+ dvkbuntu-reglage-chromium (3.2-1) eoan; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ d9dfb7893bc0bf8b2037ba4bf955cdc6dfb9b98a 949 dvkbuntu-reglage-chromium_3.2-1.dsc
+ d096ca095a95cb3f06d3e24da809d79d31bf4bf9 548 dvkbuntu-reglage-chromium_3.2.orig.tar.xz
+ 6ce8a28111607b56071bff5f2f566b61e2694949 2160 dvkbuntu-reglage-chromium_3.2-1.debian.tar.xz
+ 7a8ec8f33d7f82bfd879bfd0c189bab4c927bdee 5040 dvkbuntu-reglage-chromium_3.2-1_amd64.buildinfo
+ 46822518282365ccc4f787d007d8119d88883c7f 2784 dvkbuntu-reglage-chromium_3.2-1_amd64.deb
+Checksums-Sha256:
+ 01a00c678206f47bb4cd4654bc0129e3cd5a0d9757c603ac565876da14379483 949 dvkbuntu-reglage-chromium_3.2-1.dsc
+ db51652817bb743a8de48c50cdc81c617726068098d1d759695a8790f7e2b4af 548 dvkbuntu-reglage-chromium_3.2.orig.tar.xz
+ 880f740a5b1ca2ec6188a47c7ea17a56635e9fa663c00987f629e2424d172b5b 2160 dvkbuntu-reglage-chromium_3.2-1.debian.tar.xz
+ b3b4121e95d9d16dd6957bd6942602070a90dd7f617300d8a6f42880c9e5377e 5040 dvkbuntu-reglage-chromium_3.2-1_amd64.buildinfo
+ e68fdcdfc21a4102403ab81300162680808830d45a713a76f123582e1c3da8e5 2784 dvkbuntu-reglage-chromium_3.2-1_amd64.deb
+Files:
+ 68a32392355519ca04ad4765c0a0ec2f 949 misc important dvkbuntu-reglage-chromium_3.2-1.dsc
+ ba2173781191c7c8dc8aa3da5c6dea1d 548 misc important dvkbuntu-reglage-chromium_3.2.orig.tar.xz
+ 81fbb231602696e5dc009cb7cea2b3fb 2160 misc important dvkbuntu-reglage-chromium_3.2-1.debian.tar.xz
+ 8a66fdb6874dc048caf8bf157f47a159 5040 misc important dvkbuntu-reglage-chromium_3.2-1_amd64.buildinfo
+ afeb46312ff01bf695d2edea72ca3bc9 2784 misc important dvkbuntu-reglage-chromium_3.2-1_amd64.deb
