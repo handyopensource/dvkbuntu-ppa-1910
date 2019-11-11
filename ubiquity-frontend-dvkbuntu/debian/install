@@ -21,6 +21,7 @@ share/README usr/share/ubiquity/qt/share/
 share/config/kwinrc usr/share/ubiquity/qt/share/config/
 share/config/kcm-about-distrorc usr/share/ubiquity/qt/share/config/
 share/config/plasmarc usr/share/ubiquity/qt/share/config/
+share/config/kdeglobals usr/share/ubiquity/qt/share/config/
 
 images/.directory usr/share/ubiquity/qt/images/
 images/branding.svgz usr/share/ubiquity/qt/images/
