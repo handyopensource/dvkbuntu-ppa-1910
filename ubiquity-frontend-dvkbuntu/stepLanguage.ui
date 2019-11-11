@@ -46,7 +46,7 @@
    <item row="8" column="0" colspan="5">
     <widget class="QLabel" name="try_install_text_label">
      <property name="text">
-      <string>You can try ${RELEASE} without making any changes to your system, or install alongside or instead of your current operating system.</string>
+      <string>You can try DVKbuntu without making any changes to your system, or install alongside or instead of your current operating system.</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>
@@ -162,7 +162,7 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>Try ${RELEASE}</string>
+        <string>Try DVKbuntu</string>
        </property>
        <property name="toolButtonStyle">
         <enum>Qt::ToolButtonTextUnderIcon</enum>
@@ -194,7 +194,7 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>Install ${RELEASE}</string>
+        <string>Install DVKbuntu</string>
        </property>
        <property name="toolButtonStyle">
         <enum>Qt::ToolButtonTextUnderIcon</enum>

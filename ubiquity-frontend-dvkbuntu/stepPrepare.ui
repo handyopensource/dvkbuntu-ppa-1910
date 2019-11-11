@@ -17,7 +17,7 @@
    <item>
     <widget class="QLabel" name="prepare_heading_label">
      <property name="text">
-      <string>Preparing to install ${RELEASE}</string>
+      <string>Preparing to install DVKbuntu</string>
      </property>
     </widget>
    </item>
@@ -169,7 +169,7 @@
    <item>
     <widget class="QLabel" name="prepare_foss_disclaimer">
      <property name="text">
-      <string>&lt;qt&gt;${RELEASE} aims to be free and open-source software.&lt;br /&gt;However, this is not always possible.&lt;/span&gt;&lt;/qt&gt;</string>
+      <string>&lt;qt&gt;DVKbuntu aims to be free and open-source software.&lt;br /&gt;However, this is not always possible.&lt;/span&gt;&lt;/qt&gt;</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>

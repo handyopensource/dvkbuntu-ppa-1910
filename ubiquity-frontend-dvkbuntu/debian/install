@@ -1,3 +1,5 @@
+kde_ui.py usr/lib/ubiquity/ubiquity/frontend/
+
 app.ui usr/share/ubiquity/qt/
 partition_create_dialog.ui usr/share/ubiquity/qt/
 stepLanguage.ui usr/share/ubiquity/qt/
@@ -15,7 +17,10 @@ stepKeyboardConf.ui usr/share/ubiquity/qt/
 stepPrepare.ui usr/share/ubiquity/qt/
 
 share/README usr/share/ubiquity/qt/share/
+
 share/config/kwinrc usr/share/ubiquity/qt/share/config/
+share/config/kcm-about-distrorc usr/share/ubiquity/qt/share/config/
+share/config/plasmarc usr/share/ubiquity/qt/share/config/
 
 images/.directory usr/share/ubiquity/qt/images/
 images/branding.svgz usr/share/ubiquity/qt/images/

@@ -168,7 +168,7 @@
           <item>
            <widget class="QLabel" name="distro_release_label">
             <property name="text">
-             <string>karmic</string>
+             <string>eoan</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignHCenter|Qt::AlignTop</set>
