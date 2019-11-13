@@ -138,9 +138,9 @@ Size=256
 Size=256
 
 [General]
-ColorScheme=ZionReversed
+ColorScheme=DVKBuntu
 Name[fr_FR]=Breeze
-Name=Zion (Reversed)
+Name=DVKBuntu
 font=Luciole,12,-1,5,50,0,0,0,0,0,Regular
 menuFont=Luciole,12,-1,5,50,0,0,0,0,0,Regular
 shadeSortColumn=true
@@ -214,6 +214,10 @@ cat << FIN > "/usr/share/kubuntu-default-settings/plasmarc"
 name=DVKBUNTU
 FIN
 
+cat << FIN > "/usr/share/kubuntu-default-settings/kf5-settings/plasmarc"
+[Theme]
+name=DVKBUNTU
+FIN
 
 cat << FIN > "/usr/share/kubuntu-default-settings/settings.ini"
 [Settings]
@@ -230,13 +234,20 @@ gtk-toolbar-style=GTK_TOOLBAR_ICONS
 FIN
 
 
-cat << FIN > "/gtk2-default-theme.rc.sh"
+cat << FIN > "/usr/share/kubuntu-default-settings/gtk2-default-theme.rc.sh"
 #!/bin/bash
 
 # Make sure our customised gtkrc file is loaded.
 export GTK2_RC_FILES=$HOME/.gtkrc-2.0-kde4
 FIN
 
+cat << FIN > "/usr/share/kubuntu-default-settings/kf5-settings/kcm-about-distrorc"
+[General]
+LogoPath=/usr/share/kubuntu-default-settings/Icone.png
+Website=https://www.dvkbuntu.org/
+Name=DVKBUNTU
+Variant=Développeurs : @PaulluxWaffle - @Jacky - @Yo_man - @｟Ad͢͢͢n｠- @Toulibre - @chris2228
+FIN
 
 cat << FIN > "/etc/xdg/kcm-about-distrorc"
 [General]
