@@ -78,7 +78,7 @@ class UbiquityUI(QtWidgets.QMainWindow):
         signal.siginterrupt(signal.SIGCHLD, False)
 
         distro_name = "DVKbuntu"
-        distro_release = "DVKbuntu"
+        distro_release = "19.10"
 
         # # setup the release and codename
         with open("/etc/lsb-release", 'r') as fp:
@@ -88,7 +88,7 @@ class UbiquityUI(QtWidgets.QMainWindow):
                     if name.startswith('"') and name.endswith('"'):
                         name = name[1:-1]
                     if name != "Ubuntu":
-                        distro_name = "DVKbuntu"
+                        distro_name = distro_name[1:-1]
                 elif "DISTRIB_RELEASE=" in line:
                     distro_release = str.strip(line.split("=")[1], '\n')
                     if distro_release.startswith('"') and \
