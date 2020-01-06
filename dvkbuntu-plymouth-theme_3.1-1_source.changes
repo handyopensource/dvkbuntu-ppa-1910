@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 06 Jan 2020 22:28:17 +0200
+Source: dvkbuntu-plymouth-theme
+Architecture: source
+Version: 3.1-1
+Distribution: eoan
+Urgency: medium
+Maintainer: Paul WOISARD <paulwoisard@gmail.com>
+Changed-By: Paul WOISARD <paulwoisard@gmail.com>
+Changes:
+ dvkbuntu-plymouth-theme (3.1-1) eoan; urgency=medium
+ .
+   * creation
+Checksums-Sha1:
+ 4aebbab2a3ce2f9758c511444189ce06be3a5f02 1679 dvkbuntu-plymouth-theme_3.1-1.dsc
+ a6c9520a868a529f5f05ba277c847df79b4ccdee 46412 dvkbuntu-plymouth-theme_3.1.orig.tar.xz
+ 2bf348ef8df74163f758144e395c3888dfa03ec6 2208 dvkbuntu-plymouth-theme_3.1-1.debian.tar.xz
+ 187bd98173aadd9ba82f57ac2dad70dbc80f3584 6054 dvkbuntu-plymouth-theme_3.1-1_source.buildinfo
+Checksums-Sha256:
+ c0a09681913971ddaffce0b21008646edd7e9017f7ea0e2cd8d2f65aa1a25ac0 1679 dvkbuntu-plymouth-theme_3.1-1.dsc
+ 29382174a9a4f1f580f4efc61b6fb913457b7797fbe84510f40a7f06609a98cf 46412 dvkbuntu-plymouth-theme_3.1.orig.tar.xz
+ 33da2f89c841b4077b86a6a9bad77ccfbb14149d3d98abec72eee8b20f988ebf 2208 dvkbuntu-plymouth-theme_3.1-1.debian.tar.xz
+ 77c8765c85ca1b47e86c31693710eb3db8fb5c2947ea6ce055488b05dc90e173 6054 dvkbuntu-plymouth-theme_3.1-1_source.buildinfo
+Files:
+ 33e9ae2a05d17894efe8098487fdf5ea 1679 misc important dvkbuntu-plymouth-theme_3.1-1.dsc
+ 0d2abfec78666ee02f670a5c1f7e47e7 46412 misc important dvkbuntu-plymouth-theme_3.1.orig.tar.xz
+ 7b43f1ea18629e0df7d55c9e425b17e9 2208 misc important dvkbuntu-plymouth-theme_3.1-1.debian.tar.xz
+ 905fe6d61e0c6da4956eb7322a7d6fce 6054 misc important dvkbuntu-plymouth-theme_3.1-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHKBAEBCgA0FiEEQbn7GLY9uC862K6YHT5Pzk8RjeYFAl4Tp/8WHHBhdWx3b2lz
+YXJkQGdtYWlsLmNvbQAKCRAdPk/OTxGN5r5uDACClymuE01KBm6L5qnQdM28bTWS
+KYnabWDH6BPzHV4uRtbubvNIW42PfuZQbIMyrjkm7S/ZKhG/03xggoIg4NT3boUV
+OVeeMvXYe7i1C3EiWks5gRknQ+dSBM4Tp2WHbuxakSb0ESU1VzysJanTUmwVVfYV
+u62H0HI8dlrdPw6tcQCkghDgzpATYZr/oqRJDZlD1uqEc3HM4dS1m3LMNxV4i7Fs
+ITwtEr8UOyCcESpRHaauOhCZFlJECvbEbfd+iyM86dhzjhiTTst+SqWneCv5EMIE
+shqMubu7qZJt63b541BFXdUgHKMVdwDiFcjjg+eRQfNpDbk4wxMQYdjRmLkLRXku
+wxLjLl7RVFI6j0XJk0DO7FukwvG2GLxk0kGv4Che+B24DiXXLAJWXeUsowPeHtKJ
+i5+rS0Lxh49YcnnSw5AgEWCEgCWT2kx0zQYIdalYINsoE+G7i941+r83/NQBDfZp
+puMBwxeQDYXggLMcVh3GX0lhdqIv9SD6dUZQacs=
+=bhRe
+-----END PGP SIGNATURE-----

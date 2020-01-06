@@ -1,0 +1,36 @@
+ dpkg-buildpackage -us -uc -ui -S -sa
+dpkg-buildpackage: info: paquet source dvkbuntu-plymouth-theme
+dpkg-buildpackage: info: version source 3.1-1
+dpkg-buildpackage: info: distribution source eoan
+dpkg-buildpackage: info: source changé par Paul WOISARD <paulwoisard@gmail.com>
+ dpkg-source --before-build .
+ fakeroot debian/rules clean
+dh clean
+   dh_clean
+ dpkg-source -b .
+dpkg-source: info: utilisation du format source « 3.0 (quilt) »
+dpkg-source: info: construction de dvkbuntu-plymouth-theme en utilisant le ./dvkbuntu-plymouth-theme_3.1.orig.tar.xz existant
+dpkg-source: info: construction de dvkbuntu-plymouth-theme dans dvkbuntu-plymouth-theme_3.1-1.debian.tar.xz
+dpkg-source: info: construction de dvkbuntu-plymouth-theme dans dvkbuntu-plymouth-theme_3.1-1.dsc
+ dpkg-genbuildinfo --build=source
+ dpkg-genchanges -sa --build=source >../dvkbuntu-plymouth-theme_3.1-1_source.changes
+dpkg-genchanges: info: inclusion du code source original dans l'envoi (« upload »)
+ dpkg-source --after-build .
+dpkg-buildpackage: info: envoi complet (inclusion du code source d'origine)
+Now running lintian dvkbuntu-plymouth-theme_3.1-1_source.changes ...
+W: dvkbuntu-plymouth-theme source: debhelper-but-no-misc-depends dvkbuntu-plymouth-theme
+W: dvkbuntu-plymouth-theme source: maintainer-script-lacks-debhelper-token debian/postinst
+W: dvkbuntu-plymouth-theme source: space-in-std-shortname-in-dep5-copyright <special license> (paragraph at line 5)
+E: dvkbuntu-plymouth-theme source: debian-rules-is-dh_make-template
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile dsc dvkbuntu-plymouth-theme_3.1-1.dsc Paul WOISARD <paulwoisard@gmail.com>
+
+ fixup_buildinfo dvkbuntu-plymouth-theme_3.1-1.dsc dvkbuntu-plymouth-theme_3.1-1_source.buildinfo
+ signfile buildinfo dvkbuntu-plymouth-theme_3.1-1_source.buildinfo Paul WOISARD <paulwoisard@gmail.com>
+
+ fixup_changes dsc dvkbuntu-plymouth-theme_3.1-1.dsc dvkbuntu-plymouth-theme_3.1-1_source.changes
+ fixup_changes buildinfo dvkbuntu-plymouth-theme_3.1-1_source.buildinfo dvkbuntu-plymouth-theme_3.1-1_source.changes
+ signfile changes dvkbuntu-plymouth-theme_3.1-1_source.changes Paul WOISARD <paulwoisard@gmail.com>
+
+Successfully signed dsc, buildinfo, changes files

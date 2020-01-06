@@ -1,0 +1,59 @@
+ dpkg-buildpackage -us -uc -ui
+dpkg-buildpackage: info: paquet source dvkbuntu-plymouth-theme
+dpkg-buildpackage: info: version source 3.1-1
+dpkg-buildpackage: info: distribution source eoan
+dpkg-buildpackage: info: source changé par Paul WOISARD <paulwoisard@gmail.com>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: architecture hôte amd64
+ fakeroot debian/rules clean
+dh clean
+   dh_clean
+ dpkg-source -b .
+dpkg-source: info: utilisation du format source « 3.0 (quilt) »
+dpkg-source: info: construction de dvkbuntu-plymouth-theme en utilisant le ./dvkbuntu-plymouth-theme_3.1.orig.tar.xz existant
+dpkg-source: info: construction de dvkbuntu-plymouth-theme dans dvkbuntu-plymouth-theme_3.1-1.debian.tar.xz
+dpkg-source: info: construction de dvkbuntu-plymouth-theme dans dvkbuntu-plymouth-theme_3.1-1.dsc
+ debian/rules build
+dh build
+   dh_update_autotools_config
+   dh_autoreconf
+   create-stamp debian/debhelper-build-stamp
+ fakeroot debian/rules binary
+dh binary
+   dh_testroot
+   dh_prep
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_missing
+   dh_strip
+   dh_makeshlibs
+   dh_shlibdeps
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package 'dvkbuntu-plymouth-theme' in '../dvkbuntu-plymouth-theme_3.1-1_amd64.deb'.
+ dpkg-genbuildinfo
+ dpkg-genchanges  >../dvkbuntu-plymouth-theme_3.1-1_amd64.changes
+dpkg-genchanges: info: inclusion du code source original dans l'envoi (« upload »)
+ dpkg-source --after-build .
+dpkg-buildpackage: info: envoi complet (inclusion du code source d'origine)
+Now running lintian dvkbuntu-plymouth-theme_3.1-1_amd64.changes ...
+W: dvkbuntu-plymouth-theme source: debhelper-but-no-misc-depends dvkbuntu-plymouth-theme
+W: dvkbuntu-plymouth-theme source: maintainer-script-lacks-debhelper-token debian/postinst
+W: dvkbuntu-plymouth-theme source: space-in-std-shortname-in-dep5-copyright <special license> (paragraph at line 5)
+E: dvkbuntu-plymouth-theme source: debian-rules-is-dh_make-template
+W: dvkbuntu-plymouth-theme: new-package-should-close-itp-bug
+E: dvkbuntu-plymouth-theme: helper-templates-in-copyright
+W: dvkbuntu-plymouth-theme: copyright-has-url-from-dh_make-boilerplate
+E: dvkbuntu-plymouth-theme: copyright-contains-dh_make-todo-boilerplate
+E: dvkbuntu-plymouth-theme: description-is-dh_make-template
+W: dvkbuntu-plymouth-theme: maintainer-script-should-not-use-update-alternatives-set postinst:4
+W: dvkbuntu-plymouth-theme: maintainer-script-ignores-errors postinst
+Finished running lintian.
