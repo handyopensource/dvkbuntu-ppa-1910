@@ -23,3 +23,5 @@ start.svg usr/share/icons/breeze/places/64/
 start.svg usr/share/icons/breeze-dark/places/64/
 
 color-schemes/DVKBuntu.colors usr/share/color-schemes/
+
+grub_wallpaper.tga usr/share/images/grub
