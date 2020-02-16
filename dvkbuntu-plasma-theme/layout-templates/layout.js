@@ -30,6 +30,7 @@ panel.height = gridUnit * 4
 var kickoff = panel.addWidget("org.kde.plasma.simplemenu")
 kickoff.currentConfigGroup = ["Shortcuts"]
 kickoff.writeConfig("global", "Alt+F1")
+kickoff.writeConfig("icon", "Logo.svg")
 
 //panel.addWidget("org.kde.plasma.showActivityManager")
 
