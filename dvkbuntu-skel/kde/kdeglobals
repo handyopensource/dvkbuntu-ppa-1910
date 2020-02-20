@@ -111,7 +111,7 @@ toolBarFont=Luciole,12,-1,5,50,0,0,0,0,0,Regular
 widgetStyle=Breeze
 
 [Icons]
-Theme=breeze-dark
+Theme=Flat-Remix-Blue-Dark
 
 [KDE]
 ShowIconsInMenuItems=true

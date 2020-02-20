@@ -6,64 +6,73 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][742][Configuration]
+[Containments][786][Configuration]
 PreloadWeight=42
 
-[Containments][743][Applets][745][Configuration]
-PreloadWeight=42
-
-[Containments][743][Applets][746][Configuration]
-PreloadWeight=42
-
-[Containments][743][Applets][747][Configuration]
-PreloadWeight=42
-
-[Containments][743][Applets][749][Configuration]
-PreloadWeight=42
-
-[Containments][743][Applets][762][Configuration]
+[Containments][787][Applets][788][Configuration]
 PreloadWeight=92
 
-[Containments][743][Configuration]
+[Containments][787][Applets][789][Configuration]
 PreloadWeight=42
 
-[Containments][748][Applets][750][Configuration]
+[Containments][787][Applets][790][Configuration]
 PreloadWeight=42
 
-[Containments][748][Applets][751][Configuration]
+[Containments][787][Applets][791][Configuration]
 PreloadWeight=42
 
-[Containments][748][Applets][752][Configuration]
+[Containments][787][Applets][792][Configuration]
 PreloadWeight=42
 
-[Containments][748][Applets][753][Configuration]
+[Containments][787][Applets][794][Configuration]
 PreloadWeight=42
 
-[Containments][748][Applets][754][Configuration]
+[Containments][787][Configuration]
 PreloadWeight=42
 
-[Containments][748][Applets][755][Configuration]
+[Containments][793][Applets][795][Configuration]
 PreloadWeight=42
 
-[Containments][748][Applets][756][Configuration]
+[Containments][793][Applets][796][Configuration]
 PreloadWeight=42
 
-[Containments][748][Applets][757][Configuration]
+[Containments][793][Applets][797][Configuration]
 PreloadWeight=42
 
-[Containments][748][Applets][758][Configuration]
+[Containments][793][Applets][798][Configuration]
 PreloadWeight=42
 
-[Containments][748][Applets][759][Configuration]
+[Containments][793][Applets][799][Configuration]
 PreloadWeight=42
 
-[Containments][748][Applets][760][Configuration]
+[Containments][793][Applets][800][Configuration]
 PreloadWeight=42
 
-[Containments][748][Configuration]
+[Containments][793][Applets][801][Configuration]
 PreloadWeight=42
 
-[Containments][763]
+[Containments][793][Applets][802][Configuration]
+PreloadWeight=42
+
+[Containments][793][Applets][803][Configuration]
+PreloadWeight=42
+
+[Containments][793][Applets][804][Configuration]
+PreloadWeight=42
+
+[Containments][793][Applets][805][Configuration]
+PreloadWeight=42
+
+[Containments][793][Applets][806][Configuration]
+PreloadWeight=42
+
+[Containments][793][Applets][807][Configuration]
+PreloadWeight=42
+
+[Containments][793][Configuration]
+PreloadWeight=42
+
+[Containments][808]
 activityId=956dc16b-8c45-49ac-9a8d-480b3effed26
 formfactor=0
 immutability=1
@@ -72,23 +81,17 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][763][ConfigDialog]
-DialogHeight=1200
-DialogWidth=1600
+[Containments][808][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
-[Containments][763][Configuration]
-PreloadWeight=0
+[Containments][808][Configuration]
+PreloadWeight=10
 
-[Containments][763][General]
-ToolBoxButtonState=topright
-ToolBoxButtonX=3692
-positions=6,19,desktop:/old iso,2,2,desktop:/Nouveau dossier,2,1,desktop:/ISO-disco3,2,0,desktop:/DVKBuntu-19.04.0-2019.05.15-desktop-amd64.md5.md5,0,5,desktop:/DVKBuntu-19.04.0-2019.05.15-desktop-amd64.iso,0,4,desktop:/install,4,1,desktop:/DVKBuntu.png,4,0,desktop:/dvkbuntu-ppa-binaire-source,0,1,desktop:/splash.png,4,2,desktop:/DVKbuntu-logo,0,0,desktop:/branding.svgz,0,3,desktop:/packaging-disco,3,0,desktop:/Paquet PPA,0,2,desktop:/start.svgz,3,2,desktop:/start-dvkbuntu.svg,3,1,desktop:/ISO-disco2,5,1,desktop:/splash,1,2,desktop:/skel,1,1
-sortMode=-1
+[Containments][808][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/DVKBUNTU-Logo/contents/images/1920x1080.png
 
-[Containments][763][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/DVKBUNTU-Logo/contents/images/3840x2160.png
-
-[Containments][764]
+[Containments][809]
 activityId=
 formfactor=2
 immutability=1
@@ -97,71 +100,74 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][764][Applets][765][Configuration][General]
-favoritesPortedToKAstats=true
-
-[Containments][764][Applets][766]
-immutability=1
-plugin=org.kde.plasma.quicklaunch
-
-[Containments][764][Applets][766][Configuration]
-PreloadWeight=0
-
-[Containments][764][Applets][766][Configuration][General]
-launcherUrls=file:///usr/share/applications/DVKBuntuMenuAcceuil.desktop
-
-[Containments][764][Applets][767]
-immutability=1
-plugin=org.kde.plasma.pager
-
-[Containments][764][Applets][767][Configuration]
-PreloadWeight=0
-
-[Containments][764][Applets][768]
-immutability=1
-plugin=org.kde.plasma.taskmanager
-
-[Containments][764][Applets][768][Configuration]
-PreloadWeight=0
-
-[Containments][764][Applets][769]
-immutability=1
-plugin=org.kde.plasma.systemtray
-
-[Containments][764][Applets][769][Configuration]
-PreloadWeight=0
-SystrayContainmentId=770
-
-[Containments][764][Applets][771]
-immutability=1
-plugin=org.kde.plasma.digitalclock
-
-[Containments][764][Applets][771][Configuration]
-PreloadWeight=0
-
-[Containments][764][Applets][783][Configuration][General]
-favoritesPortedToKAstats=true
-
-[Containments][764][Applets][784]
+[Containments][809][Applets][810]
 immutability=1
 plugin=org.kde.plasma.simplemenu
 
-[Containments][764][Applets][784][Configuration]
-PreloadWeight=0
+[Containments][809][Applets][810][Configuration]
+PreloadWeight=60
 
-[Containments][764][Applets][784][Configuration][General]
+[Containments][809][Applets][810][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][809][Applets][810][Configuration][General]
 favoritesPortedToKAstats=true
+icon=Logo.svg
 
-[Containments][764][Applets][784][Shortcuts]
+[Containments][809][Applets][810][Configuration][Shortcuts]
+global=Alt+F1
+icon=Logo.svg
+
+[Containments][809][Applets][810][Shortcuts]
 global=Alt+F1
 
-[Containments][764][Configuration]
-PreloadWeight=0
+[Containments][809][Applets][811]
+immutability=1
+plugin=org.kde.plasma.quicklaunch
 
-[Containments][764][General]
-AppletOrder=784;766;767;768;779;770
+[Containments][809][Applets][811][Configuration]
+PreloadWeight=10
 
-[Containments][770]
+[Containments][809][Applets][811][Configuration][General]
+launcherUrls=file:///usr/share/applications/DVKBuntuMenuAcceuil.desktop
+
+[Containments][809][Applets][812]
+immutability=1
+plugin=org.kde.plasma.pager
+
+[Containments][809][Applets][812][Configuration]
+PreloadWeight=10
+
+[Containments][809][Applets][813]
+immutability=1
+plugin=org.kde.plasma.taskmanager
+
+[Containments][809][Applets][813][Configuration]
+PreloadWeight=10
+
+[Containments][809][Applets][814]
+immutability=1
+plugin=org.kde.plasma.systemtray
+
+[Containments][809][Applets][814][Configuration]
+PreloadWeight=10
+SystrayContainmentId=815
+
+[Containments][809][Applets][816]
+immutability=1
+plugin=org.kde.plasma.digitalclock
+
+[Containments][809][Applets][816][Configuration]
+PreloadWeight=10
+
+[Containments][809][Configuration]
+PreloadWeight=10
+
+[Containments][809][General]
+AppletOrder=810;811;812;813;814;816
+
+[Containments][815]
 activityId=
 formfactor=2
 immutability=1
@@ -170,97 +176,104 @@ location=4
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
 
-[Containments][770][Applets][772]
+[Containments][815][Applets][817]
 immutability=1
 plugin=org.kde.plasma.vault
 
-[Containments][770][Applets][772][Configuration]
-PreloadWeight=0
+[Containments][815][Applets][817][Configuration]
+PreloadWeight=10
 
-[Containments][770][Applets][773]
+[Containments][815][Applets][818]
 immutability=1
 plugin=org.kde.plasma.printmanager
 
-[Containments][770][Applets][773][Configuration]
-PreloadWeight=0
+[Containments][815][Applets][818][Configuration]
+PreloadWeight=10
 
-[Containments][770][Applets][774]
+[Containments][815][Applets][819]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
 
-[Containments][770][Applets][774][Configuration]
-PreloadWeight=0
+[Containments][815][Applets][819][Configuration]
+PreloadWeight=10
 
-[Containments][770][Applets][775]
+[Containments][815][Applets][820]
 immutability=1
 plugin=org.kde.kdeconnect
 
-[Containments][770][Applets][775][Configuration]
-PreloadWeight=0
+[Containments][815][Applets][820][Configuration]
+PreloadWeight=10
 
-[Containments][770][Applets][776]
+[Containments][815][Applets][821]
 immutability=1
 plugin=org.kde.discovernotifier
 
-[Containments][770][Applets][776][Configuration]
-PreloadWeight=5
+[Containments][815][Applets][821][Configuration]
+PreloadWeight=10
 
-[Containments][770][Applets][777]
+[Containments][815][Applets][822]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
-[Containments][770][Applets][777][Configuration]
-PreloadWeight=0
+[Containments][815][Applets][822][Configuration]
+PreloadWeight=10
 
-[Containments][770][Applets][778]
+[Containments][815][Applets][823]
 immutability=1
 plugin=org.kde.plasma.notifications
 
-[Containments][770][Applets][778][Configuration]
-PreloadWeight=0
+[Containments][815][Applets][823][Configuration]
+PreloadWeight=10
 
-[Containments][770][Applets][779]
+[Containments][815][Applets][824]
 immutability=1
 plugin=org.kde.plasma.clipboard
 
-[Containments][770][Applets][779][Configuration]
-PreloadWeight=0
+[Containments][815][Applets][824][Configuration]
+PreloadWeight=10
 
-[Containments][770][Applets][780]
+[Containments][815][Applets][825]
 immutability=1
 plugin=org.kde.plasma.volume
 
-[Containments][770][Applets][780][Configuration]
-PreloadWeight=0
+[Containments][815][Applets][825][Configuration]
+PreloadWeight=10
 
-[Containments][770][Applets][781]
+[Containments][815][Applets][826]
 immutability=1
 plugin=org.kde.plasma.battery
 
-[Containments][770][Applets][781][Configuration]
-PreloadWeight=0
+[Containments][815][Applets][826][Configuration]
+PreloadWeight=10
 
-[Containments][770][Applets][782]
-immutability=1
-plugin=org.kde.plasma.networkmanagement
-
-[Containments][770][Applets][782][Configuration]
-PreloadWeight=0
-
-[Containments][770][Applets][783]
+[Containments][815][Applets][827]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
-[Containments][770][Applets][783][Configuration]
-PreloadWeight=0
+[Containments][815][Applets][827][Configuration]
+PreloadWeight=26
 
-[Containments][770][Configuration]
-PreloadWeight=0
+[Containments][815][Applets][828]
+immutability=1
+plugin=org.kde.plasma.networkmanagement
 
-[Containments][770][General]
-extraItems=org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.mediacontroller,org.kde.plasma.printmanager,org.kde.plasma.notifications,org.kde.discovernotifier,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator
-knownItems=org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.mediacontroller,org.kde.plasma.printmanager,org.kde.plasma.notifications,org.kde.discovernotifier,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator
+[Containments][815][Applets][828][Configuration]
+PreloadWeight=10
+
+[Containments][815][Applets][829]
+immutability=1
+plugin=org.kde.plasma.bluetooth
+
+[Containments][815][Applets][829][Configuration]
+PreloadWeight=10
+
+[Containments][815][Configuration]
+PreloadWeight=10
+
+[Containments][815][General]
+extraItems=org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.keyboardindicator,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.volume,org.kde.discovernotifier
+knownItems=org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.keyboardindicator,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.volume,org.kde.discovernotifier
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/dvkbuntu-ppa-binaire-source,0,desktop:/kubuntu-logo,0,desktop:/branding.svgz,0,desktop:/skel,0,desktop:/Nouveau dossier,0,desktop:/start-dvkbuntu.svg,0,desktop:/packaging-disco,0,desktop:/DVKBuntu(1).png,0,desktop:/Nouveau dossier (1),0,desktop:/ISO-disco3,0,desktop:/Paquet PPA,0,desktop:/DVKbuntu-19.04.06-2019.05.11-desktop-amd642.iso,0,desktop:/install,0,desktop:/start.svgz,0,desktop:/ISO-disco2,0,desktop:/DVKbuntu-19.04.05-2019.05.11-desktop-amd24.md5.md5,0,desktop:/DVKbuntu-19.04.05-2019.05.11-deskto2-amd64.iso,0,desktop:/splash.png,0,desktop:/splash,0,desktop:/DVKBuntu-19.04.0-2019.05.15-desktop-amd64.iso,0,desktop:/DVKbuntu-19.04.06-2019.05.11-desktop-amd64.md52.md5,0,desktop:/old iso,0,desktop:/DVKBuntu.png,0,desktop:/DVKbuntu-logo,0,desktop:/DVKBuntu-19.04.0-2019.05.15-desktop-amd64.md5.md5,0
+screenMapping=desktop:/packaging-disco,0,desktop:/skel,0,desktop:/DVKbuntu-19.04.06-2019.05.11-desktop-amd642.iso,0,desktop:/dvkbuntu-ppa-binaire-source,0,desktop:/kubuntu-logo,0,desktop:/DVKbuntu-19.04.05-2019.05.11-deskto2-amd64.iso,0,desktop:/splash.png,0,desktop:/DVKBuntu-19.04.0-2019.05.15-desktop-amd64.md5.md5,0,desktop:/start-dvkbuntu.svg,0,desktop:/ISO-disco2,0,desktop:/DVKBuntu.png,0,desktop:/install,0,desktop:/DVKbuntu-logo,0,desktop:/DVKbuntu-19.04.05-2019.05.11-desktop-amd24.md5.md5,0,desktop:/Nouveau dossier,0,desktop:/Paquet PPA,0,desktop:/Nouveau dossier (1),0,desktop:/ISO-disco3,0,desktop:/start.svgz,0,desktop:/DVKbuntu-19.04.06-2019.05.11-desktop-amd64.md52.md5,0,desktop:/DVKBuntu(1).png,0,desktop:/branding.svgz,0,desktop:/old iso,0,desktop:/DVKBuntu-19.04.0-2019.05.15-desktop-amd64.iso,0,desktop:/splash,0

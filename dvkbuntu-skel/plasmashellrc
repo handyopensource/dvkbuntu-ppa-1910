@@ -8,10 +8,12 @@ Recent URLs[$e]=file:///usr/share/plasma/desktoptheme/DVKBUNTU/icons/
 
 [KPropertiesDialog]
 Height 1874=708
+Height 900=618
+Width 1600=487
 Width 3744=732
 
 [PlasmaRunnerManager]
-LaunchCounts=1 services_firefox.desktop,9 services_org.kde.kinfocenter.desktop,6 services_org.kde.muon.desktop,2 services_PinguyBuilder-gtk-kde.desktop,28 services_cubic.desktop,4 services_org.kde.kate.desktop,1 services_org.gnome.seahorse.Application.desktop
+LaunchCounts=1 services_org.gnome.seahorse.Application.desktop,1 services_pavucontrol-qt.desktop,1 services_firefox.desktop,1 services_org.kde.partitionmanager.desktop,4 services_org.kde.kate.desktop,2 services_nocomprendo.desktop,28 services_cubic.desktop,9 services_org.kde.konsole.desktop,2 services_PinguyBuilder-gtk-kde.desktop,1 services_org.kde.dolphin.desktop,1 services_google-chrome.desktop,9 services_org.kde.kinfocenter.desktop,8 services_org.kde.muon.desktop,1 services_org.qt-project.qtcreator.desktop
 pluginWhiteList=services,bookmarks,baloosearch
 
 [PlasmaViews][Panel 102][Horizontal3744]
@@ -140,6 +142,9 @@ thickness=160
 [PlasmaViews][Panel 743][Horizontal3744]
 thickness=196
 
+[PlasmaViews][Panel 764][Horizontal1600]
+thickness=64
+
 [PlasmaViews][Panel 764][Horizontal1920]
 thickness=30
 
@@ -152,6 +157,12 @@ thickness=30
 [PlasmaViews][Panel 764][Horizontal640]
 thickness=30
 
+[PlasmaViews][Panel 787][Horizontal1600]
+thickness=74
+
+[PlasmaViews][Panel 809][Horizontal1600]
+thickness=72
+
 [PlasmaViews][Panel 83][Horizontal3744]
 thickness=160
 
@@ -162,7 +173,7 @@ thickness=30
 thickness=30
 
 [ScreenConnectors]
-0=VGA-1
+0=LVDS-1
 
 [Updates]
 performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js

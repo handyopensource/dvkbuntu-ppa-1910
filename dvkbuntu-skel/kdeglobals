@@ -113,6 +113,7 @@ Size=256
 Size=256
 
 [General]
+BrowserApplication=google-chrome.desktop
 ColorScheme=DVKBuntu
 Name[fr_FR]=Breeze
 Name=DVKBuntu
@@ -126,7 +127,7 @@ toolBarFont=Luciole,12,-1,5,50,0,0,0,0,0,Regular
 widgetStyle=Breeze
 
 [Icons]
-Theme=breeze-dark
+Theme=Flat-Remix-Blue-Dark
 
 [KDE]
 LookAndFeelPackage=DVKBUNTU
@@ -154,8 +155,8 @@ View Style=Simple
 listViewIconSize=0
 
 [KScreen]
-ScaleFactor=1.8
-ScreenScaleFactors=DP-1-1=1.8;HDMI-1-1=1.8;HDMI-1-2=1.8;DP-1-2=1.8;DVI-D-1=1.8;HDMI-3=1.8;DP-3=1.8;
+ScaleFactor=1
+ScreenScaleFactors=DP-1-1=1;HDMI-1-1=1;HDMI-1-2=1;DP-1-2=1;DVI-D-1=1;HDMI-3=1;DP-3=1;
 
 [MainToolbarIcons]
 Size=48
