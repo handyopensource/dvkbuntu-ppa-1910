@@ -1,5 +1,6 @@
 [Devices]
 VBOX CD-ROM=5632,0
+hp BD MLT UJ240AF=4234,11080
 
 [External Programs]
 cdrdao default=/usr/bin/cdrdao
@@ -26,6 +27,8 @@ readcd default=/usr/bin/readom
 readcd last seen newest version=1.1.11
 readcd user parameters=
 search path[$e]=/usr/bin/,/usr/local/bin/,/usr/sbin/,/usr/local/sbin/,/sbin
+sox default=/usr/bin/sox
+sox last seen newest version=14.4.2
 sox user parameters=
 transcode user parameters=
 vcdxbuild default=/usr/bin/vcdxbuild
@@ -42,7 +45,7 @@ vcdxrip user parameters=
 Allow overburning=false
 Fifo buffer=4
 Force unsafe operations=false
-Last system check version=18.12.3
+Last system check version=19.4.3
 Manual buffer size=false
 Navigator breadcrumb mode=true
 No cd eject=false
@@ -50,13 +53,14 @@ Show Document Header=true
 Temp Dir=/home/paul/Vidéos
 burnfree=true
 check system config=true
-config version=18.12.3
+config version=19.4.3
 current theme=quant
 
 [Welcome Widget]
 welcome_actions=file_new_data,file_new_audio,tools_copy_medium
 
 [file view]
+Allow Expansion=false
 Decoration position=0
 Show Inline Previews=true
 Show Preview=false
@@ -71,6 +75,8 @@ show bookmarks=false
 
 [main_window_settings]
 Height 1874=816
-State=AAAA/wAAAAD9AAAAAAAAA/8AAAKKAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Height 900=679
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAIFAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
+Width 1600=640
 Width 3744=1023

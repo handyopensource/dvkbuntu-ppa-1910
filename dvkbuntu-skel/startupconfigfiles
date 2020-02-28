@@ -65,7 +65,7 @@ kdeglobals KScreen ScreenScaleFactors ''
 !/var/lib/snapd/desktop/config/kdeglobals
 *
 kcmfonts General forceFontDPI 0
-!/home/paul/.config/kcmfonts
+/home/paul/.config/kcmfonts
 !/etc/xdg/xdg-plasma/kcmfonts
 !/etc/xdg/kcmfonts
 !/usr/share/kubuntu-default-settings/kf5-settings/kcmfonts

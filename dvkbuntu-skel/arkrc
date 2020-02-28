@@ -84,29 +84,20 @@ Word Completion Remove Tail=true
 
 [MainWindow]
 Height 1874=1103
-State=AAAA/wAAAAD9AAAAAAAACawAAAPcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
-StatusBar=Disabled
+Height 900=642
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAIFAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
+Width 1600=640
 Width 3744=2476
-splitterSizes=1650,825
+splitterSizes=371,268
 
 [Open-with settings]
 CompletionMode=1
 History=kate
 
 [Recent Files]
-File1[$e]=$HOME/Téléchargements/packaging-20190501T144730Z-001.zip
-File2[$e]=$HOME/Bureau/Paquet PPA/dvkbuntu-page-acceuil_2.3.orig.tar.xz
-File3[$e]=$HOME/Bureau/packaging-disco/dvkbuntu-plasma-theme/desktoptheme/start.svgz
-File4[$e]=$HOME/Bureau/packaging-disco/dvkbuntu-logo_2.2.orig.tar.xz
-File5[$e]=$HOME/Téléchargements/python-vte_0.28.2-5ubuntu5_amd64.deb
-File6[$e]=$HOME/Téléchargements/bodhibuilder_2.18.5_all.deb
-Name1[$e]=packaging-20190501T144730Z-001.zip
-Name2[$e]=dvkbuntu-page-acceuil_2.3.orig.tar.xz
-Name3[$e]=start.svgz
-Name4[$e]=dvkbuntu-logo_2.2.orig.tar.xz
-Name5[$e]=python-vte_0.28.2-5ubuntu5_amd64.deb
-Name6[$e]=bodhibuilder_2.18.5_all.deb
+File1[$e]=$HOME/Téléchargements/test1.tar.gz
+Name1[$e]=test1.tar.gz
 
 [Viewer]
 Height 1874=220

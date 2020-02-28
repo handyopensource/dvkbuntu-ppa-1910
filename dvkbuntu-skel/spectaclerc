@@ -7,8 +7,9 @@ lastSaveAsFile=file:///home/paul/Bureau/Nouveau dossier/preview/preview.png
 lastSaveFile=file:///home/paul/Bureau/Nouveau dossier/preview/preview.png
 
 [GuiConfig]
+cropRegion=0,0,0,0
 lastUsedSaveMode=0
-window-position=20,0
+window-position=8,60
 
 [KFileDialog Settings]
 Recent Files[$e]=file:$HOME/Bureau/Nouveau dossier/preview/preview.png,file:$HOME/Bureau/Nouveau dossier/preview/preview.png

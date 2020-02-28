@@ -8,8 +8,8 @@ ksplashrc_ksplash_theme=DVKBUNTU
 # ksplashrc KSplash Engine KSplashQML
 ksplashrc_ksplash_engine=KSplashQML
 # kdeglobals KScreen ScaleFactor ''
-kdeglobals_kscreen_scalefactor=1.8
+kdeglobals_kscreen_scalefactor=1
 # kdeglobals KScreen ScreenScaleFactors ''
-kdeglobals_kscreen_screenscalefactors='DP-1-1=1.8;HDMI-1-1=1.8;HDMI-1-2=1.8;DP-1-2=1.8;DVI-D-1=1.8;HDMI-3=1.8;DP-3=1.8;'
+kdeglobals_kscreen_screenscalefactors='DP-1-1=1;HDMI-1-1=1;HDMI-1-2=1;DP-1-2=1;DVI-D-1=1;HDMI-3=1;DP-3=1;'
 # kcmfonts General forceFontDPI 0
-kcmfonts_general_forcefontdpi=168
+kcmfonts_general_forcefontdpi=96

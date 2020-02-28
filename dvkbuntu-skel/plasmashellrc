@@ -13,7 +13,7 @@ Width 1600=487
 Width 3744=732
 
 [PlasmaRunnerManager]
-LaunchCounts=1 services_org.gnome.seahorse.Application.desktop,1 services_pavucontrol-qt.desktop,1 services_firefox.desktop,1 services_org.kde.partitionmanager.desktop,4 services_org.kde.kate.desktop,2 services_nocomprendo.desktop,28 services_cubic.desktop,9 services_org.kde.konsole.desktop,2 services_PinguyBuilder-gtk-kde.desktop,1 services_org.kde.dolphin.desktop,1 services_google-chrome.desktop,9 services_org.kde.kinfocenter.desktop,8 services_org.kde.muon.desktop,1 services_org.qt-project.qtcreator.desktop
+LaunchCounts=1 services_org.kde.partitionmanager.desktop,11 services_org.kde.konsole.desktop,1 services_pavucontrol-qt.desktop,1 services_google-chrome.desktop,1 services_org.gnome.seahorse.Application.desktop,28 services_cubic.desktop,9 services_org.kde.kinfocenter.desktop,1 services_org.qt-project.qtcreator.desktop,2 services_PinguyBuilder-gtk-kde.desktop,2 services_nocomprendo.desktop,1 services_firefox.desktop,8 services_org.kde.muon.desktop,4 services_org.kde.kate.desktop,1 services_org.kde.dolphin.desktop
 pluginWhiteList=services,bookmarks,baloosearch
 
 [PlasmaViews][Panel 102][Horizontal3744]
@@ -171,6 +171,36 @@ thickness=30
 
 [PlasmaViews][Panel 83][Horizontal640]
 thickness=30
+
+[PlasmaViews][Panel 831][Horizontal1600]
+alignment=1
+maxLength=1600
+minLength=1600
+offset=0
+panelVisibility=0
+thickness=60
+
+[PlasmaViews][Panel 852][Horizontal1600]
+thickness=72
+
+[PlasmaViews][Panel 873][Horizontal1600]
+alignment=1
+maxLength=1600
+minLength=1600
+offset=0
+panelVisibility=0
+thickness=60
+
+[PlasmaViews][Panel 895][Horizontal1600]
+thickness=72
+
+[PlasmaViews][Panel 917][Horizontal1600]
+alignment=1
+maxLength=1600
+minLength=1600
+offset=0
+panelVisibility=0
+thickness=60
 
 [ScreenConnectors]
 0=LVDS-1

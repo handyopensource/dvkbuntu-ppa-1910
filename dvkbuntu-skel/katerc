@@ -6,6 +6,8 @@ Favorites=
 
 [FileDialogSize]
 Height 1874=480
+Height 900=480
+Width 1600=912
 Width 3744=724
 
 [General]
@@ -21,12 +23,14 @@ Show Tab Bar=true
 [KFileDialog Settings]
 Recent Files[$e]=postinst,file:$HOME/Bureau/packaging-disco/dvkbuntu-sddm-theme/debian/postinst
 Recent URLs[$e]=file:$HOME/Bureau/packaging-disco/dvkbuntu-sddm-theme/debian/
+listViewIconSize=0
 
 [KTextEditor Document]
 Allow End of Line Detection=true
 BOM=false
-Backup Flags=0
+Backup Local=false
 Backup Prefix=
+Backup Remote=false
 Backup Suffix=~
 Encoding=UTF-8
 End of Line=0
@@ -73,6 +77,7 @@ Auto Center Lines=0
 Auto Completion=true
 Backspace Remove Composed Characters=false
 Bookmark Menu Sorting=0
+Chars To Enclose Selection=
 Default Mark Type=1
 Dynamic Word Wrap=true
 Dynamic Word Wrap Align Indent=80
@@ -100,6 +105,8 @@ Show Line Count=false
 Show Scrollbars=0
 Show Word Count=false
 Smart Copy Cut=false
+Text Drag And Drop=true
+User Sets Of Chars To Enclose Selection=
 Vi Input Mode Steal Keys=false
 Vi Relative Line Numbers=false
 Word Completion=true
@@ -110,8 +117,10 @@ Word Completion Remove Tail=true
 Height 1874=1051
 Height 480=485
 Height 600=531
-State=AAAA/wAAAAD9AAAAAAAACZAAAAPoAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+Height 900=715
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAHDAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
+Width 1600=1600
 Width 3744=2448
 Width 640=640
 Width 800=792
