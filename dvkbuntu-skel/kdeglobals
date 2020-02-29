@@ -156,8 +156,8 @@ View Style=Simple
 listViewIconSize=0
 
 [KScreen]
-ScaleFactor=1
-ScreenScaleFactors=DP-1-1=1;HDMI-1-1=1;HDMI-1-2=1;DP-1-2=1;DVI-D-1=1;HDMI-3=1;DP-3=1;
+ScaleFactor=1.8
+ScreenScaleFactors=DP-1-1=1.8;HDMI-1-1=1.8;HDMI-1-2=1.8;DP-1-2=1.8;DVI-D-1=1.8;HDMI-3=1.8;DP-3=1.8;
 
 [MainToolbarIcons]
 Size=48

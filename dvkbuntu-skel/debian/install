@@ -71,3 +71,5 @@ DVKBuntu.colors etc/skel/.kde/share/apps/color-schemes/
 kde/kdeglobals etc/skel/.kde/share/config/
 
 autostart/org.kde.latte-dock.desktop etc/skel/.config/autostart/
+
+kcmfonts etc/skel/.config/
