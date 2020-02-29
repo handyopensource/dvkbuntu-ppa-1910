@@ -112,15 +112,15 @@ desktoptheme/Nilium_DVKbuntu/widgets/tooltip.svgz usr/share/plasma/desktoptheme/
 desktoptheme/Nilium_DVKbuntu/widgets/translucentbackground.svgz usr/share/plasma/desktoptheme/Nilium_DVKbuntu/widgets/
 desktoptheme/Nilium_DVKbuntu/widgets/viewitem.svgz usr/share/plasma/desktoptheme/Nilium_DVKbuntu/widgets/
 
-look-and-feel/contents/defaults usr/share/plasma/look-and-feel/contents/
-look-and-feel/contents/layouts/org.kde.plasma.desktop-layout.js usr/share/plasma/look-and-feel/contents/layouts/
-look-and-feel/contents/previews/fullscreenpreview.jpg usr/share/plasma/look-and-feel/contents/previews/
-look-and-feel/contents/previews/preview.png usr/share/plasma/look-and-feel/contents/previews/
-look-and-feel/contents/previews/splash.png usr/share/plasma/look-and-feel/contents/previews/
-look-and-feel/contents/splash/images/start-here-kde-animation.svg usr/share/plasma/look-and-feel/contents/splash/images/
-look-and-feel/contents/splash/images/start-here-kde-logo.svg usr/share/plasma/look-and-feel/contents/splash/images/
-look-and-feel/contents/splash/Splash.qml usr/share/plasma/look-and-feel/contents/splash/
-look-and-feel/metadata.desktop usr/share/plasma/look-and-feel/
+look-and-feel/contents/defaults usr/share/plasma/look-and-feel/DVKBuntuV2/contents/
+look-and-feel/contents/layouts/org.kde.plasma.desktop-layout.js usr/share/plasma/look-and-feel/DVKBuntuV2/contents/layouts/
+look-and-feel/contents/previews/fullscreenpreview.jpg usr/share/plasma/look-and-feel/DVKBuntuV2/contents/previews/
+look-and-feel/contents/previews/preview.png usr/share/plasma/look-and-feel/DVKBuntuV2/contents/previews/
+look-and-feel/contents/previews/splash.png usr/share/plasma/look-and-feel/DVKBuntuV2/contents/previews/
+look-and-feel/contents/splash/images/start-here-kde-animation.svg usr/share/plasma/look-and-feel/DVKBuntuV2/contents/splash/images/
+look-and-feel/contents/splash/images/start-here-kde-logo.svg usr/share/plasma/look-and-feel/DVKBuntuV2/contents/splash/images/
+look-and-feel/contents/splash/Splash.qml usr/share/plasma/look-and-feel/DVKBuntuV2/contents/splash/
+look-and-feel/metadata.desktop usr/share/plasma/look-and-feel/DVKBuntuV2/
 
 latte/Default.layout.latte usr/share/plasma/shells/org.kde.latte.shell/contents/presets/
 latte/DVKbuntu.layout.latte usr/share/plasma/shells/org.kde.latte.shell/contents/presets/
