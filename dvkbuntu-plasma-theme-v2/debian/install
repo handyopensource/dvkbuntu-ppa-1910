@@ -124,3 +124,19 @@ look-and-feel/metadata.desktop usr/share/plasma/look-and-feel/DVKBuntuV2/
 
 latte/Default.layout.latte usr/share/plasma/shells/org.kde.latte.shell/contents/presets/
 latte/DVKbuntu.layout.latte usr/share/plasma/shells/org.kde.latte.shell/contents/presets/
+
+dvkmenu/COPYING usr/share/plasma/plasmoids/dvkmenu/
+dvkmenu/metadata.desktop usr/share/plasma/plasmoids/dvkmenu/
+
+dvkmenu/contents/code/tools.js usr/share/plasma/plasmoids/dvkmenu/contents/code/
+
+dvkmenu/contents/config/config.qml usr/share/plasma/plasmoids/dvkmenu/contents/config/
+dvkmenu/contents/config/main.xml usr/share/plasma/plasmoids/dvkmenu/contents/config/
+
+dvkmenu/contents/ui/ActionMenu.qml usr/share/plasma/plasmoids/dvkmenu/contents/ui/
+dvkmenu/contents/ui/CompactRepresentation.qml usr/share/plasma/plasmoids/dvkmenu/contents/ui/
+dvkmenu/contents/ui/ConfigGeneral.qml usr/share/plasma/plasmoids/dvkmenu/contents/ui/
+dvkmenu/contents/ui/ItemGridDelegate.qml usr/share/plasma/plasmoids/dvkmenu/contents/ui/
+dvkmenu/contents/ui/ItemGridView.qml usr/share/plasma/plasmoids/dvkmenu/contents/ui/
+dvkmenu/contents/ui/main.qml usr/share/plasma/plasmoids/dvkmenu/contents/ui/
+dvkmenu/contents/ui/MenuRepresentation.qml usr/share/plasma/plasmoids/dvkmenu/contents/ui/
