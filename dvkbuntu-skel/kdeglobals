@@ -115,7 +115,7 @@ Size=256
 [General]
 BrowserApplication=google-chrome.desktop
 ColorScheme=DVKBuntu
-Name[fr_FR]=Breeze
+Name[fr_FR]=DVKBuntu
 Name=DVKBuntu
 dbfile=/home/paul/.mozilla/firefox/aay7icd3.default/places.sqlite
 font=Luciole,12,-1,5,50,0,0,0,0,0,Regular
