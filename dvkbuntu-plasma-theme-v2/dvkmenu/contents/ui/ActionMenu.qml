@@ -19,7 +19,6 @@
  ***************************************************************************/
 
 import QtQuick 2.0
-
 import org.kde.plasma.components 2.0 as PlasmaComponents
 
 Item {
@@ -129,8 +128,7 @@ Item {
             icon      : actionItem.icon ? actionItem.icon : null
             checkable : actionItem.checkable ? actionItem.checkable : false
             checked   : actionItem.checked ? actionItem.checked : false
-
-            onClicked: {
+            onClicked : {
                 actionClicked(actionItem.actionId, actionItem.actionArgument);
             }
         }

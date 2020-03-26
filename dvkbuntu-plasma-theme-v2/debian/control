@@ -8,7 +8,7 @@ Homepage: https://discord.gg/FtsNjjC
 
 Package: dvkbuntu-plasma-theme-v2
 Architecture: any
-Depends: kubuntu-desktop, dvkbuntu-menu-acceuil, grub2-splashimages, latte-dock
+Depends: kubuntu-desktop, dvkbuntu-menu-acceuil, grub2-splashimages, latte-dock, dvkbuntu-vocalfly
 Replaces: latte-dock, dvkbuntu-plasma-theme
 Description: DVKBUNTU Plasma theme Version 2
  <insert long description, indented with spaces>

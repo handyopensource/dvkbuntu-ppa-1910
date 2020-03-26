@@ -104,7 +104,7 @@ FocusScope {
             visualParent.actionTriggered(actionId, actionArgument);
         }
     }
-
+        
     DropArea {
         id: dropArea
 
@@ -123,7 +123,7 @@ FocusScope {
             }
 
         }
-
+        
         Timer {
             id: resetAnimationDurationTimer
 
@@ -251,6 +251,7 @@ FocusScope {
 
                 if (gridView.currentIndex != -1) {
                     if (dragEnabled && pressX != -1 && dragHelper.isDrag(pressX, pressY, mouse.x, mouse.y)) {
+                        
                         if ("pluginName" in item.m) {
                             dragHelper.startDrag(kicker, item.url, item.icon,
                             "text/x-plasmoidservicename", item.m.pluginName);

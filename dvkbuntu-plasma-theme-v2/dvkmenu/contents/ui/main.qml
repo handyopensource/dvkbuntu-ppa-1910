@@ -143,7 +143,7 @@ Item {
     Kicker.DragHelper {
         id: dragHelper
     }
-
+    
     Kicker.ProcessRunner {
         id: processRunner;
     }

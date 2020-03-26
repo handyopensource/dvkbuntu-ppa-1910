@@ -28,6 +28,8 @@ import org.kde.plasma.extras 2.0 as PlasmaExtras
 
 import org.kde.plasma.private.kicker 0.1 as Kicker
 
+import org.dvkbuntu.dvkmenulauncher 1.0
+
 PlasmaCore.Dialog {
     id: root
 
@@ -99,8 +101,8 @@ PlasmaCore.Dialog {
         Layout.minimumHeight: (cellSize * 6) + searchField.height + paginationBar.height + (2 * units.smallSpacing)
         Layout.maximumHeight: (cellSize * 6) + searchField.height + paginationBar.height + (2 * units.smallSpacing)
 
-        focus: true
-
+        focus: true     
+      
         MouseArea {
             id: mouseArea
             anchors.fill: parent
@@ -480,7 +482,7 @@ PlasmaCore.Dialog {
             id: filterList
 
             focus: true
-
+            
             property bool allApps: false
             property int eligibleWidth: width
             property int hItemMargins: highlightItemSvg.margins.left + highlightItemSvg.margins.right
@@ -489,8 +491,10 @@ PlasmaCore.Dialog {
             boundsBehavior: Flickable.StopAtBounds
             snapMode: ListView.SnapToItem
             spacing: 0
-            keyNavigationWraps: true
-
+            keyNavigationWraps: true                     
+            QLauncher {
+                id: qprocess
+            }
             delegate: MouseArea {
                 id: item
 
@@ -506,7 +510,7 @@ PlasmaCore.Dialog {
                 acceptedButtons: Qt.LeftButton
 
                 hoverEnabled: true
-
+                
                 onContainsMouseChanged: {
                     if (!containsMouse) {
                         updateCurrentItemTimer.stop();
@@ -538,22 +542,26 @@ PlasmaCore.Dialog {
                     } else if (mouse.x > ListView.view.eligibleWidth) {
                         updateCurrentItem();
                     }
-
                     updateCurrentItemTimer.start();
                 }
+                
+                onEntered: qprocess.launch('createWaveFromItem "Catégorie ' + model.display + '"');
+                onExited: qprocess.launch('createWaveFromItem ""')
 
                 function updateCurrentItem() {
                     ListView.view.currentIndex = index;
                     ListView.view.eligibleWidth = Math.min(width, mouseCol);
                 }
-
+                
                 Timer {
                     id: updateCurrentItemTimer
 
                     interval: 50
                     repeat: false
-
-                    onTriggered: parent.updateCurrentItem()
+                    
+                    onTriggered: {
+                        parent.updateCurrentItem()
+                    }
                 }
 
                 PlasmaExtras.Heading {

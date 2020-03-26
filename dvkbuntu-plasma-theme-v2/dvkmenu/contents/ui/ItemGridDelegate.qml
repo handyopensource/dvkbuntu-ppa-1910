@@ -24,8 +24,10 @@ import org.kde.plasma.core 2.0 as PlasmaCore
 import org.kde.plasma.components 2.0 as PlasmaComponents
 import org.kde.kquickcontrolsaddons 2.0
 
-import "../code/tools.js" as Tools
+import org.dvkbuntu.dvkmenulauncher 1.0
 
+import "../code/tools.js" as Tools
+ 
 Item {
     id: item
 
@@ -70,6 +72,10 @@ Item {
         source: model.decoration
     }
 
+    QLauncher {
+        id: qprocess
+    }
+    
     PlasmaComponents.Label {
         id: label
 
@@ -93,10 +99,19 @@ Item {
         
         text: model.display
     }
+
     MouseArea {
         id: mouseArea
         anchors.fill: parent
         hoverEnabled: true
+        propagateComposedEvents: true
+        
+        onEntered: qprocess.launch('createWaveFromItem "' + model.display + '"')
+        onClicked: { 
+            qprocess.launch('createWaveFromItem "Ouverture"')
+            mouse.accepted = false
+        }
+        onExited: qprocess.launch('createWaveFromItem ""')
     }
     Keys.onPressed: {
         if (event.key == Qt.Key_Menu && hasActionList) {
