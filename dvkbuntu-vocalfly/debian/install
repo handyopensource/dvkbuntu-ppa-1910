@@ -10,3 +10,10 @@ TaskItem.qml /usr/share/plasma/plasmoids/org.kde.latte.plasmoid/contents/ui/task
 DigitalClock.qml /usr/share/plasma/plasmoids/org.kde.plasma.digitalclock/contents/ui/
 analogclock.qml /usr/share/plasma/plasmoids/org.kde.plasma.analogclock/contents/ui/
 LectureHeure /usr/bin/
+
+IconItem.qml /usr/share/plasma/plasmoids/org.kde.plasma.quicklaunch/contents/ui/
+Task.qml /usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/
+lockout.qml /home/paulw/Bureau/plasma/plasmoids/org.kde.plasma.lock_logout/contents/ui/
+AbstractItem.qml /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/items/
+PlasmoidItem.qml /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/items/
+StatusNotifierItem.qml /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/items/

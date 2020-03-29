@@ -9,6 +9,6 @@ Homepage: https://discord.gg/FtsNjjC
 Package: dvkbuntu-vocalfly
 Architecture: any
 Depends: kubuntu-desktop, dvkbuntu-menu-acceuil, latte-dock, dvkbuntu-plasma-theme-v2, libqt5multimedia5, libqt5qml5, libqt5core5a
-Replaces: latte-dock, plasma-workspace
+Replaces: latte-dock, plasma-workspace, plasma-widgets-addons, plasma-desktop-data
 Description: DVKBUNTU Vocal Software
  <insert long description, indented with spaces>
