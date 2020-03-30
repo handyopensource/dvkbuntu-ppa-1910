@@ -511,7 +511,7 @@ Item {
                     var msUTC = now.getTime() + (now.getTimezoneOffset() * 60000);
                     // add the dataengine TZ offset to it
                     var currentTime = new Date(msUTC + (dataSource.data[plasmoid.configuration.lastSelectedTimezone]["Offset"] * 1000));
-
+                    
                     main.currentTime = currentTime;
                     return Qt.formatTime(currentTime, main.timeFormat);
                 }
