@@ -18,3 +18,8 @@ AbstractItem.qml /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/c
 PlasmoidItem.qml /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/items/
 StatusNotifierItem.qml /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/items/
 ExpanderArrow.qml /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/
+
+Logout.qml /usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/logout/
+
+DecorationButton.qml /usr/share/kwin/aurorae/
+PlastikButton.qml /usr/share/kwin/decorations/kwin4_decoration_qml_plastik/contents/ui/
