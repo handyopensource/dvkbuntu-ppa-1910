@@ -1,6 +1,8 @@
 #!/bin/bash
 
-mv /usr/bin/google_speech-multilanguage /usr/local/bin/google_speech-multilanguage
+if [ -f /usr/bin/google_speech-multilanguage ]; then
+    mv /usr/bin/google_speech-multilanguage /usr/local/bin/google_speech-multilanguage
+fi
 
 update-alternatives --install /etc/alternatives/tts.gz tts "/usr/local/bin/google_speech-multilanguage" 20
 update-alternatives --install /etc/alternatives/tts.gz tts "/usr/bin/espeak-ng-multilanguage" 15
