@@ -23,3 +23,10 @@ Logout.qml /usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/logou
 
 DecorationButton.qml /usr/share/kwin/aurorae/
 PlastikButton.qml /usr/share/kwin/decorations/kwin4_decoration_qml_plastik/contents/ui/
+
+usr/local/bin/google_speech-multilanguage /usr/bin/
+espeak-ng-multilanguage /usr/bin/
+
+GUI/VocalFly /usr/bin/
+GUI/vocalflyicon.png /usr/share/icons/
+GUI/VocalFly.desktop /usr/share/applications/
