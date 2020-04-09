@@ -6,6 +6,7 @@ fi
 
 update-alternatives --install /etc/alternatives/tts.gz tts "/usr/local/bin/google_speech-multilanguage" 20
 update-alternatives --install /etc/alternatives/tts.gz tts "/usr/bin/espeak-ng-multilanguage" 15
+update-alternatives --install /etc/alternatives/tts.gz tts "/usr/bin/pico2wave-multilanguage" 10
 update-alternatives --remove tts /usr/bin/espeak 
 update-alternatives --remove tts /usr/bin/espeak_fr
 update-alternatives --remove tts /usr/local/bin/google_speech

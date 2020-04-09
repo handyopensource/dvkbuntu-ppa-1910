@@ -26,6 +26,7 @@ PlastikButton.qml /usr/share/kwin/decorations/kwin4_decoration_qml_plastik/conte
 
 usr/local/bin/google_speech-multilanguage /usr/bin/
 espeak-ng-multilanguage /usr/bin/
+pico2wave-multilanguage /usr/bin/
 
 GUI/VocalFly /usr/bin/
 GUI/vocalflyicon.png /usr/share/icons/
